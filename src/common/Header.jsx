@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-
-import { navbar } from "../data/Data";
 import { HiOutlineHeart, HiOutlineUser } from "react-icons/hi";
 import { MdOutlineShoppingBag } from "react-icons/md";
+
+import { navbar } from "../data/Data";
 import Sidebar from "../common/Sidebar";
 
 const Header = () => {
@@ -26,7 +26,7 @@ const Header = () => {
   };
 
   return (
-    <div>
+    <>
       <div
         className={`${sticky ? "sticky header py-4 top-0 z-50 shadow-xl" : ""}`}
       >
@@ -74,7 +74,7 @@ const Header = () => {
           closeSidebar={() => toggleSidebar()}
         />
       </div>
-    </div>
+    </>
   );
 };
 export default Header;
