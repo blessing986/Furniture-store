@@ -1,6 +1,10 @@
-const Home=()=> {
-    return (
-      <div>Home</div>
-    )
-  }
-  export default Home
+import Banner from "../components/Banner";
+
+const Home = () => {
+  return (
+    <div>
+      <Banner />
+    </div>
+  );
+};
+export default Home;

@@ -49,10 +49,12 @@ body {
   font-size: var(--page-header-font-size);
   font-weight: 700;
 }
+
 .common-hover {
   background-color: var(--yellow-color);
   border-radius: var(--site-button-radius);
 }
+
 .common-hover:hover {
   background-color: #000;
 }
@@ -73,4 +75,27 @@ body {
 
 .items_count span {
   font-size: small;
+}
+
+.banner .slick-next {
+  right: 15px !important;
+}
+
+.slick-next {
+  right: -12px !important;
+}
+
+.slick-prev {
+  left: 1rem !important;
+  z-index: 1;
+}
+
+.slick-next,
+.slick-prev {
+  color: #000 !important;
+  background-color: #fff !important;
+  width: 2rem !important;
+  height: 2rem !important;
+  border-radius: 100%;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.8);
 }
