@@ -148,3 +148,11 @@ body {
   background-color: var(--yellow-color);
   color: #fff;
 }
+
+.bg-img {
+  background-image: url("/public/images/page_header.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-height: 300px;
+}
