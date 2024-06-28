@@ -1,6 +1,11 @@
-const NotFoundPage=()=> {
-    return (
-      <div>Not Found Page</div>
-    )
-  }
-  export default NotFoundPage
+import PageHeading from "../common/PageHeading";
+
+const NotFoundPage = () => {
+  return (
+    <div>
+      <PageHeading home={"home"} pagename={"Not Found Page"} />
+    </div>
+  );
+};
+
+export default NotFoundPage;
